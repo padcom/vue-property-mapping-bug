@@ -2,6 +2,7 @@
   <!-- eslint-disable-next-line vue/attribute-hyphenation -->
   <hello-world .testProp />
   <hello-world .test-prop />
+  <hello-world .test-prop.camel />
 </template>
 
 <script lang="ts" setup>
